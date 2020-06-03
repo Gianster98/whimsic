@@ -1,0 +1,290 @@
+body {
+	width: 100%;
+	background-color: #f0e4d3;
+	font-family: Roboto;
+	
+}
+
+main {
+
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+header {
+	width: 100%;
+	height: 7em;
+	display: flex;
+
+	position: fixed;
+	z-index: 10;
+	background-color: #8b1e1e;
+	margin: auto;
+	justify-content: space-between;
+	padding: 0;
+
+	left: 0;
+	top: 0;
+	color: #f0e4d3;
+	border-bottom: solid;
+	font-weight: lighter;
+}
+/*nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+}
+*/
+#WPlogo {
+	height: 7.2em;
+	width: 7.7em;
+	top: 2;
+	display: inline-block;
+
+
+}
+
+#navbar {
+	display: inline-block;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	/*align-items: flex-end;*/
+
+	align-self: flex-end;
+	margin: auto;
+
+}
+
+#navbar li {
+	display: inline-block;
+	padding-right: 3em;
+	padding-left: 3em;
+
+	align-items: center;
+	line-height: 4em;
+	justify-content: space-between;
+	text-decoration: underline ;
+
+	font-size: 1.75em;
+
+
+}
+
+
+
+main{
+	padding-top: 6em;
+
+}
+
+h1 {
+	text-align: center;
+	padding-top: 3em;
+	padding-bottom: 3em;
+
+	position: relative;
+	right: 0;
+	width: 100%;
+
+	
+	margin-top: 0;
+	/*background-color: #26647a; muted blue */
+	color: #f0e4d3;
+	background-color: #8b1e1e;
+}
+
+
+
+#podcast img, #podcast p {
+	width: 65%;
+	text-align: center;
+	padding-top: 7em;
+	padding-bottom: 7em;
+}
+
+#podcast {
+	display: block;
+	
+	margin: auto;
+	width: 40%;
+	text-align: center;
+}
+
+.previews {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+#podcast p{
+	padding: 5%;
+	align-self: center;
+	
+	margin: auto;
+
+}
+
+.cast #podcast img {
+	border-radius: 100%;
+	padding: 0;
+
+}
+
+#myLinks {
+	display: none;
+}
+
+header a img{
+	display: none;
+}
+
+
+footer {
+	color: #f0e4d3;
+	background-color: #8b1e1e;
+	position: absolute;
+	left: 0;
+	width: 100%;
+}
+
+@media only screen and (max-width: 1540px){
+
+	#navbar li {
+		font-size: 1.2em;
+	}
+}
+
+@media only screen and (max-width: 1314px){
+
+	#navbar li {
+		font-size: 1.1em;
+	}
+
+	#podcast {
+		width: 75%;
+	}
+
+	#podcast img {
+		padding-bottom: 1.2em;
+	}
+}
+
+@media only screen and (max-width: 972px){
+
+	#navbar li {
+		font-size: 1em;
+		padding: 2em;
+	}
+
+	.previews {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+
+	#podcast {
+		width: 85%;
+	}
+
+	#podcast img {
+		padding-bottom: 1.2em;
+	}
+}
+
+@media only screen and (max-width: 804px){
+
+	header {
+		width: 100%;
+		height: 7em;
+		display: block;
+
+		position: fixed;
+		z-index: 10;
+		background-color: #8b1e1e;
+		margin: auto;
+		justify-content: space-between;
+		padding: 0;
+
+		left: 0;
+		top: 0;
+		color: #f0e4d3;
+		border-bottom: solid;
+		font-weight: lighter;
+	}
+
+	#navbar li {
+		font-size: 1em;
+		padding: 2em;
+
+	}
+
+	#navbar {
+		display: inline;
+	}
+
+	.previews {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+
+	#podcast {
+		width: 85%;
+	}
+
+	#podcast img {
+		padding-bottom: 1.2em;
+	}
+
+	#navbar {
+		display: none;
+	}
+
+	#myLinks {
+		background-color: #8b1e1e;
+		z-index: 9;
+		position: fixed;
+		width: 100%;
+		margin-top: -0.3em;
+
+	}
+
+	#myLinks a {
+		border-bottom: solid;
+		color: #f0e4d3;
+	}
+
+	header a {
+  		color: white;
+ 		 padding: 14px 16px;
+ 		 text-decoration: none;
+  		font-size: 17px;
+  		display: block;
+	}
+
+	header a img {
+		width: 2em;
+		height: 2em;
+		margin-top: 50%;
+		display: block;
+	}
+
+	header a.icon {
+  		display: block;
+  		position: absolute;
+  		right: 0;
+  		top: 0;
+  		bottom: 0;
+	}
+
+	header a:hover {
+  		background-color: #ddd;
+ 		color: black;
+	}
+}
