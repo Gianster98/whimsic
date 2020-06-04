@@ -135,6 +135,23 @@ h1 {
 	padding: 0;
 }
 
+.rssbox {
+	padding-bottom: 2em;
+}
+
+#rss {
+
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-radius: 0.25em;
+	margin-bottom: 20em;
+
+	color: #f0e4d3;
+	background-color: #485526; 
+}
+
 #myLinks {
 	display: none;
 }
@@ -165,11 +182,17 @@ footer {
 	padding: 3em;
 }
 
+footer #social {
+	display: flex;
+	justify-content: center;
+}
+
 footer #social img {
 	width: 4em;
 	height: 4em;
 	padding-left: 2em;
 	padding-right: 2em;
+	flex-shrink: 1;
 }
 
 @media only screen and (max-width: 1540px){

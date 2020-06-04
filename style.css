@@ -121,6 +121,16 @@ h1 {
 
 }
 
+.indie #podcast {
+	width: 85%;
+}
+
+.indie p {
+	width: 95%;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
 #myLinks {
 	display: none;
 }
@@ -153,11 +163,17 @@ footer {
 	padding: 3em;
 }
 
+footer #social {
+	display: flex;
+	justify-content: center;
+}
+
 footer #social img {
 	width: 4em;
 	height: 4em;
 	padding-left: 2em;
 	padding-right: 2em;
+	flex-shrink: 1;
 }
 
 @media only screen and (max-width: 1540px){
