@@ -175,14 +175,23 @@ footer {
 	position: absolute;
 	left: 0;
 	width: 100%;
+
 }
 
-/*@media only screen and (max-width: 1540px){
+footer #social img {
+	width: 4em;
+	height: 4em;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+
+@media only screen and (max-width: 1540px){
 
 	#navbar li {
 		font-size: 1.1em;
 	}
-}*/
+}
 
 @media only screen and (max-width: 1314px){
 

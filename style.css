@@ -139,6 +139,27 @@ footer {
 
 }
 
+#social img, #social p {
+	width: 30%;
+	text-align: center;
+}
+
+#social {
+	display: block;
+	
+	margin: auto;
+	width: 80%;
+	text-align: center;
+	padding: 3em;
+}
+
+footer #social img {
+	width: 4em;
+	height: 4em;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
 @media only screen and (max-width: 1540px){
 
 	#navbar li {
