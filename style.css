@@ -93,6 +93,19 @@ h1 {
 	width: 100%;
 }
 
+/*#supportbtn {
+
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	border-radius: 0.25em;
+	margin-top: 1em;
+
+	color: #f0e4d3;
+	background-color: #2D455D; 
+}*/
+
 #podcast img, #podcast p {
 	width: 65%;
 	text-align: center;
@@ -107,6 +120,7 @@ h1 {
 }
 
 .previews {
+	padding-top: 4em;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -293,11 +307,26 @@ footer #social img {
   		display: block;
 	}
 
-	header a img {
+	#btn {
 		width: 2em;
 		height: 2em;
 		margin-top: 50%;
 		display: block;
+	}
+
+	.navlogo {
+		width: 5em;
+	}
+
+	
+
+	#WPlogo {
+		height: 5em;
+		width: 5.2em;
+		top: 2;
+		display: inline-block;
+
+
 	}
 
 	header a.icon {
@@ -311,5 +340,10 @@ footer #social img {
 	header a:hover {
   		background-color: #ddd;
  		color: black;
+	}
+
+	iframe {
+		width: 280px; 
+		height: 157px;
 	}
 }

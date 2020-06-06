@@ -321,12 +321,12 @@ footer #social img {
   		display: block;
 	}
 
-	header a img {
+	/*header a img {
 		width: 2em;
 		height: 2em;
 		margin-top: 50%;
 		display: block;
-	}
+	}*/
 
 	header a.icon {
   		display: block;
@@ -339,5 +339,26 @@ footer #social img {
 	header a:hover {
   		background-color: #ddd;
  		color: black;
+	}
+
+	#btn {
+		width: 2em;
+		height: 2em;
+		margin-top: 50%;
+		display: block;
+	}
+
+	.navlogo {
+		width: 5em;
+	}
+
+	
+
+	#WPlogo {
+		height: 5em;
+		width: 5.2em;
+		display: inline-block;
+
+
 	}
 }
