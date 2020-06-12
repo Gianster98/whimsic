@@ -139,12 +139,17 @@ h1 {
 	padding-bottom: 2em;
 }
 
+.rssbox iframe {
+	padding-bottom: 2em;
+}
+
 #rss {
 
 	padding-left: 2em;
 	padding-right: 2em;
 	padding-top: 1em;
 	padding-bottom: 1em;
+
 	border-radius: 0.25em;
 	margin-bottom: 20em;
 
