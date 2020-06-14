@@ -119,6 +119,10 @@ h1 {
 	text-align: center;
 }
 
+#podcast iframe {
+	padding-bottom: 2em;
+}
+
 .previews {
 	padding-top: 4em;
 	display: flex;

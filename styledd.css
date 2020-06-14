@@ -138,6 +138,11 @@ h1 {
 	padding-bottom: 2em;
 }
 
+.rssbox iframe {
+	padding-bottom: 2em;
+	color: red;
+}
+
 #rss {
 
 	padding-left: 2em;
