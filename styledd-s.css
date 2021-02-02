@@ -84,16 +84,65 @@ h1 {
 	text-align: center;
 	padding-top: 3em;
 	padding-bottom: 3em;
+
+	position: relative;
+	right: 0;
+	width: 100%;
+
+	
 	margin-top: 0;
 	/*background-color: #26647a; muted blue */
 	color: #f0e4d3;
 	background-color: #8b1e1e;
-	position: relative;
-	left: 0;
-	width: 100%;
 }
 
-#kofi {
+
+
+#podcast img, #podcast p {
+	width: 65%;
+	text-align: center;
+	padding-top: 7em;
+	padding-bottom: 7em;
+}
+
+#podcast {
+	display: block;
+	
+	margin: auto;
+	width: 40%;
+	text-align: center;
+}
+
+.previews {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+#podcast p{
+	padding: 5%;
+	align-self: center;
+	
+	margin: auto;
+
+}
+
+.cast #podcast img {
+	border-radius: 100%;
+	padding: 0;
+
+}
+
+.rssbox {
+	padding-bottom: 2em;
+}
+
+.rssbox iframe {
+	padding-bottom: 2em;
+}
+
+#rss {
 
 	padding-left: 2em;
 	padding-right: 2em;
@@ -106,85 +155,19 @@ h1 {
 	background-color: #8b1e1e; 
 }
 
-#patreon-p {
+h2 {
 	text-align: center;
-}
-
-#podcast ul{
-	text-align: left;
-	display: inline-block;
-}
-
-#podcast li{
-	padding: 0.3em;
-}
-
-/*#supportbtn {
-
-	padding-left: 1em;
-	padding-right: 1em;
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
-	border-radius: 0.25em;
-	margin-top: 1em;
-
+	padding-top: 3em;
+	padding-bottom: 3em;
+	margin-top: 0;
+	/*background-color: #26647a; muted blue */
 	color: #f0e4d3;
-	background-color: #2D455D; 
-}*/
-
-#podcast img, #podcast p {
-	width: 65%;
-	text-align: center;
+	background-color: #8b1e1e;
+	position: relative;
+	left: 0;
+	width: 100%;
 }
 
-#podcast {
-	display: block;
-	
-	margin: auto;
-	width: 40%;
-	text-align: center;
-}
-
-#podcast iframe {
-	padding-bottom: 2em;
-
-}
-
-.previews {
-	padding-top: 4em;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-}
-
-
-
-#podcast p{
-	padding: 5%;
-	align-self: center;
-	
-	margin: auto;
-
-}
-
-.indie #podcast {
-	width: 85%;
-}
-
-.indie p {
-	width: 95%;
-	margin-left: 1em;
-	margin-right: 1em;
-}
-
-#myLinks {
-	display: none;
-}
-
-header a img{
-	display: none;
-}
 
 #parents {
 	display: block;
@@ -200,6 +183,14 @@ header a img{
 	list-style-type: none;
 }
 
+#myLinks {
+	display: none;
+}
+
+header a img{
+	display: none;
+}
+
 
 footer {
 	color: #f0e4d3;
@@ -207,7 +198,6 @@ footer {
 	position: absolute;
 	left: 0;
 	width: 100%;
-
 }
 
 #social img, #social p {
@@ -240,11 +230,7 @@ footer #social img {
 @media only screen and (max-width: 1540px){
 
 	#navbar li {
-		font-size: 1.5em;
-	}
-
-	iframe{
-		padding-bottom: 1em;
+		font-size: 1.2em;
 	}
 }
 
@@ -260,10 +246,6 @@ footer #social img {
 
 	#podcast img {
 		padding-bottom: 1.2em;
-	}
-
-	iframe {
-		padding-bottom: 1em;
 	}
 }
 
@@ -287,10 +269,6 @@ footer #social img {
 
 	#podcast img {
 		padding-bottom: 1.2em;
-	}
-
-	iframe {
-		padding-bottom: 1em;
 	}
 }
 
@@ -366,7 +344,25 @@ footer #social img {
   		display: block;
 	}
 
+	/*header a img {
+		width: 2em;
+		height: 2em;
+		margin-top: 50%;
+		display: block;
+	}*/
 
+	header a.icon {
+  		display: block;
+  		position: absolute;
+  		right: 0;
+  		top: 0;
+  		bottom: 0;
+	}
+
+	header a:hover {
+  		background-color: #ddd;
+ 		color: black;
+	}
 
 	#btn {
 		width: 2em;
@@ -388,24 +384,5 @@ footer #social img {
 		display: inline-block;
 
 
-	}
-
-	header a.icon {
-  		display: block;
-  		position: absolute;
-  		right: 0;
-  		top: 0;
-  		bottom: 0;
-	}
-
-	header a:hover {
-  		background-color: #ddd;
- 		color: black;
-	}
-
-	iframe {
-		width: 280px; 
-		height: 80px;
-		padding-bottom: 0.1em;
 	}
 }
